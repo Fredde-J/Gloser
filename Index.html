@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="jquery-3.4.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gloser</title>
+</head>
+<body>
+    <h1>Glostest</h1>
+    <br>
+    <div>
+    <input type="text" id="word1">
+    </div>
+    <br>
+    <div>
+        <input type="text" id="word2">
+    </div>
+    <br>
+    <div>
+        <button id="addButton" type="button">Add Word Pair</button>
+    </div>
+    <br>
+    <div>
+        <button id="startButton" type="button">Start Test</button>
+    </div>
+    <br>
+    <div>
+    <p>
+        ${this.id}
+    </p>
+    <input type="text" id="word3">
+    </div>
+    <br>
+    <div>
+        <button id="finishButton" type="button">Finish Test</button>
+    </div>
+    <br>
+    <button onclick="getPersonalInfo()">Personal info</button>
+    <p id="nameOut"></p>
+    <p id="socialSecNrOut"></p>
+    <p id="adressOut"></p>
+    <script src="main.js"></script>
+</body>
+</html>
